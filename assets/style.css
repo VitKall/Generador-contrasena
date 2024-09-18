@@ -81,7 +81,8 @@ h1, p {
 
 .container__campo {
     display: flex;
-    align-items: center;
+    width: 135%;
+    align-items:center;
     margin-bottom: 12px;
     margin: 20px;
     gap: 1.5rem;
@@ -97,21 +98,17 @@ h1, p {
     line-height: normal;
     margin-left: 10px;
     padding: 1rem 0;
-    text-align: center;
+    margin: 0 5% 0 0;
 }
 
+datalist {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+  
 .container__input {
     width: 100%;
-    max-width: 300px;
-    height: 52px;
-    border-radius: 16px;
-    background-color: #FFF;
-    border: none;
-    color: #535353;
-    padding: 1rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'Trebuchet MS';
 }
 
 .boton {
@@ -126,6 +123,7 @@ h1, p {
     height: 52px;
     box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
     cursor: pointer;
+    margin: 0 0 0 0;
 }
 
 .boton:hover {
@@ -150,6 +148,7 @@ h1, p {
     height: 52px;
     box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
     cursor: pointer;
+    margin: 0 0 0 0;
 }
 
 .boton_borrar:disabled {
@@ -158,7 +157,7 @@ h1, p {
 
 .container__contrasena {
     width: 100%;
-    max-width: 600px;
+    max-width: 1000px;
     height: 52px;
     border-radius: 16px;
     background-color: #FFF;
@@ -167,8 +166,8 @@ h1, p {
     margin: 8px;
     padding: 1rem;
     font-size: 1.5rem;
-    font-weight: 700;
     font-family: 'Trebuchet MS';
+    letter-spacing: 0.07rem;
 }
 
 /* Media Queries */
